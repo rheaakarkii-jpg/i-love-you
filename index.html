@@ -1,0 +1,926 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <title>Happy Boyfriend's Day ♡</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- =========================================
+     OPENING SCREEN
+========================================= -->
+
+<div class="opening-screen" id="openingScreen">
+
+    <div class="opening-sparkle">✦</div>
+
+    <div class="envelope-wrapper">
+
+        <div class="envelope">
+
+            <div class="envelope-flap"></div>
+
+            <div class="envelope-letter">
+
+                <span>♡</span>
+
+                <p>
+                    for my favourite person
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <div class="opening-text">
+
+        <p class="tiny-heading">
+            ♡ A LITTLE SOMETHING FOR YOU ♡
+        </p>
+
+        <h1>
+            Happy Boyfriend's Day
+            <span>♡</span>
+        </h1>
+
+        <p>
+            To my favourite person,
+            my favourite chaos,
+            and my favourite human. 💗
+        </p>
+
+        <button onclick="openWebsite()">
+            Open your little surprise ♡
+        </button>
+
+    </div>
+
+</div>
+
+
+<!-- =========================================
+     MAIN WEBSITE
+========================================= -->
+
+<main id="mainWebsite">
+
+
+<!-- =========================================
+     HERO
+========================================= -->
+
+<section class="hero">
+
+    <div class="floating-heart hero-heart-1">♡</div>
+    <div class="floating-heart hero-heart-2">♥</div>
+    <div class="floating-heart hero-heart-3">♡</div>
+
+    <div class="hero-content">
+
+        <div class="tiny-heading">
+            ♡ WELCOME TO OUR LITTLE WORLD ♡
+        </div>
+
+        <h1>
+            Some things are better
+            <span>kept forever.</span>
+        </h1>
+
+        <p>
+            So I made this little place for
+            all the memories, silly moments,
+            random pictures and tiny things
+            that make our story special.
+        </p>
+
+        <button class="scroll-button"
+                onclick="scrollToSection('memories')">
+
+            explore our memories ↓
+
+        </button>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     OUR MOMENTS
+========================================= -->
+
+<section class="memories" id="memories">
+
+    <div class="section-heading reveal">
+
+        <div class="small-title">
+            ♡ A LITTLE PIECE OF US ♡
+        </div>
+
+        <h2>
+            Our little <span>moments.</span>
+        </h2>
+
+        <p>
+            Tiny moments, silly memories,
+            random pictures and all the
+            little things that became my favourites.
+        </p>
+
+    </div>
+
+
+    <!-- =====================================
+         PHOTO GRID
+    ====================================== -->
+
+    <div class="photo-grid">
+
+
+        <!-- PHOTO 1 -->
+
+        <div class="photo-card large reveal">
+
+            <div class="photo-number">
+                01
+            </div>
+
+            <div class="photo-label">
+                favourite ♡
+            </div>
+
+            <div class="photo-wrapper"
+                 onclick="openPhoto('photo1.jpg')">
+
+                <img src="photo1.jpg"
+                     alt="Our memory">
+
+                <div class="photo-overlay">
+
+                    <span>♡</span>
+
+                    <p>
+                        open memory
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="caption">
+
+                <span>♡</span>
+
+                <div>
+
+                    <strong>
+                        One of my favourite days.
+                    </strong>
+
+                    <small>
+                        I would happily relive this one.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button class="memory-button"
+                    onclick="toggleMemory('memory1')">
+
+                read memory ♡
+
+            </button>
+
+
+            <div class="hidden-memory"
+                 id="memory1">
+
+                Some days are ordinary,
+                but somehow they become
+                special just because of
+                the person you're spending
+                them with. ♡
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PHOTO 2 -->
+
+        <div class="photo-card tilt-right reveal">
+
+            <div class="photo-number">
+                02
+            </div>
+
+            <div class="photo-label">
+                just us
+            </div>
+
+            <div class="photo-wrapper"
+                 onclick="openPhoto('photo4.jpg')">
+
+                <img src="photo4.jpg"
+                     alt="Our memory">
+
+                <div class="photo-overlay">
+
+                    <span>♡</span>
+
+                    <p>
+                        open memory
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="caption">
+
+                <span>♡</span>
+
+                <div>
+
+                    <strong>
+                        Just us.
+                    </strong>
+
+                    <small>
+                        And honestly, that's enough.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button class="memory-button"
+                    onclick="toggleMemory('memory2')">
+
+                read memory ♡
+
+            </button>
+
+
+            <div class="hidden-memory"
+                 id="memory2">
+
+                No fancy plans.
+                No perfect day.
+                Just us being ourselves.
+                Somehow that's my favourite kind. ♡
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PHOTO 3 -->
+
+        <div class="photo-card tilt-left reveal">
+
+            <div class="photo-number">
+                03
+            </div>
+
+            <div class="photo-label">
+                forever
+            </div>
+
+            <div class="photo-wrapper"
+                 onclick="openPhoto('photo3.jpg')">
+
+                <img src="photo3.jpg"
+                     alt="Our memory">
+
+                <div class="photo-overlay">
+
+                    <span>♡</span>
+
+                    <p>
+                        open memory
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="caption">
+
+                <span>♡</span>
+
+                <div>
+
+                    <strong>
+                        A day worth remembering.
+                    </strong>
+
+                    <small>
+                        One of those memories that stays.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button class="memory-button"
+                    onclick="toggleMemory('memory3')">
+
+                read memory ♡
+
+            </button>
+
+
+            <div class="hidden-memory"
+                 id="memory3">
+
+                I hope we keep collecting
+                little moments like this,
+                one after another. ♡
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PHOTO 4 -->
+
+        <div class="photo-card tilt-right reveal">
+
+            <div class="photo-number">
+                04
+            </div>
+
+            <div class="photo-label">
+                another one ♡
+            </div>
+
+            <div class="photo-wrapper"
+                 onclick="openPhoto('photo5.jpg')">
+
+                <img src="photo5.jpg"
+                     alt="Our memory">
+
+                <div class="photo-overlay">
+
+                    <span>♡</span>
+
+                    <p>
+                        open memory
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="caption">
+
+                <span>♡</span>
+
+                <div>
+
+                    <strong>
+                        Another little memory.
+                    </strong>
+
+                    <small>
+                        One more moment I want to keep.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button class="memory-button"
+                    onclick="toggleMemory('memory4')">
+
+                read memory ♡
+
+            </button>
+
+
+            <div class="hidden-memory"
+                 id="memory4">
+
+                Another tiny piece of our story
+                that I never want to forget. ♡
+
+            </div>
+
+        </div>
+
+
+
+        <!-- PHOTO 5 -->
+
+        <div class="photo-card wide reveal">
+
+            <div class="photo-number">
+                05
+            </div>
+
+            <div class="photo-label">
+                favourite chaos
+            </div>
+
+            <div class="photo-wrapper"
+                 onclick="openPhoto('photo2.jpg')">
+
+                <img src="photo2.jpg"
+                     alt="Our memory">
+
+                <div class="photo-overlay">
+
+                    <span>♡</span>
+
+                    <p>
+                        open memory
+                    </p>
+
+                </div>
+
+            </div>
+
+
+            <div class="caption">
+
+                <span>♡</span>
+
+                <div>
+
+                    <strong>
+                        My favourite kind of chaos.
+                    </strong>
+
+                    <small>
+                        Because everything is more fun with you.
+                    </small>
+
+                </div>
+
+            </div>
+
+
+            <button class="memory-button"
+                    onclick="toggleMemory('memory5')">
+
+                read memory ♡
+
+            </button>
+
+
+            <div class="hidden-memory"
+                 id="memory5">
+
+                The funniest memories are
+                usually the ones we never
+                planned. ♡
+
+            </div>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     REASONS
+========================================= -->
+
+<section class="reasons">
+
+    <div class="section-heading reveal">
+
+        <div class="small-title">
+            ♡ A LITTLE LIST ♡
+        </div>
+
+        <h2>
+            Reasons I like <span>you.</span>
+        </h2>
+
+        <p>
+            Just a few of the many little things.
+        </p>
+
+    </div>
+
+
+    <div class="reason-grid">
+
+
+        <div class="reason-card reveal">
+
+            <div class="reason-icon">
+                ☁️
+            </div>
+
+            <h3>
+                Your silly side
+            </h3>
+
+            <p>
+                Because somehow you can
+                turn the most normal moment
+                into something funny.
+            </p>
+
+        </div>
+
+
+
+        <div class="reason-card reveal">
+
+            <div class="reason-icon">
+                🌷
+            </div>
+
+            <h3>
+                The little things
+            </h3>
+
+            <p>
+                The tiny things you do
+                that you probably don't
+                even realise I notice.
+            </p>
+
+        </div>
+
+
+
+        <div class="reason-card reveal">
+
+            <div class="reason-icon">
+                🫶
+            </div>
+
+            <h3>
+                Being yourself
+            </h3>
+
+            <p>
+                No pretending.
+                No trying too hard.
+                Just you.
+            </p>
+
+        </div>
+
+
+
+        <div class="reason-card reveal">
+
+            <div class="reason-icon">
+                ✨
+            </div>
+
+            <h3>
+                Our chaos
+            </h3>
+
+            <p>
+                The random conversations,
+                jokes and moments that
+                make no sense to anyone else.
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     SURPRISE BOX
+========================================= -->
+
+<section class="surprise-section">
+
+    <div class="surprise-box reveal">
+
+        <div class="gift">
+
+            <div class="gift-lid"></div>
+
+            <div class="gift-box"></div>
+
+            <div class="gift-ribbon"></div>
+
+        </div>
+
+
+        <h2>
+            I have a little surprise...
+        </h2>
+
+        <p>
+            Don't worry, it's cute.
+        </p>
+
+
+        <button onclick="openSurprise()">
+            open it ♡
+        </button>
+
+
+        <div class="surprise-message"
+             id="surpriseMessage">
+
+            <div class="surprise-heart">
+                💗
+            </div>
+
+            <h3>
+                You found it!
+            </h3>
+
+            <p>
+                Congratulations.
+                Your prize is knowing that
+                you're one of my favourite people. ♡
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     LITTLE THINGS
+========================================= -->
+
+<section class="little-things">
+
+    <div class="section-heading reveal">
+
+        <div class="small-title">
+            ♡ OUR LITTLE THINGS ♡
+        </div>
+
+        <h2>
+            The things that feel <span>like us.</span>
+        </h2>
+
+    </div>
+
+
+    <div class="things-container">
+
+
+        <div class="thing reveal">
+
+            <span>
+                ☕
+            </span>
+
+            <p>
+                random conversations
+            </p>
+
+        </div>
+
+
+        <div class="thing reveal">
+
+            <span>
+                😂
+            </span>
+
+            <p>
+                laughing at absolutely nothing
+            </p>
+
+        </div>
+
+
+        <div class="thing reveal">
+
+            <span>
+                📸
+            </span>
+
+            <p>
+                taking random pictures
+            </p>
+
+        </div>
+
+
+        <div class="thing reveal">
+
+            <span>
+                🫶
+            </span>
+
+            <p>
+                being comfortable together
+            </p>
+
+        </div>
+
+
+        <div class="thing reveal">
+
+            <span>
+                🌙
+            </span>
+
+            <p>
+                late-night talks
+            </p>
+
+        </div>
+
+
+        <div class="thing reveal">
+
+            <span>
+                💌
+            </span>
+
+            <p>
+                little surprises
+            </p>
+
+        </div>
+
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     LOVE LETTER
+========================================= -->
+
+<section class="letter-section">
+
+    <div class="letter-card reveal">
+
+        <div class="letter-icon">
+            💌
+        </div>
+
+
+        <p class="small-title">
+            A LETTER
+        </p>
+
+
+        <h2>
+            Open when you need
+            a little smile ♡
+        </h2>
+
+
+        <button onclick="toggleLetter()">
+
+            <span id="letterButtonText">
+                open letter
+            </span>
+
+        </button>
+
+
+        <div class="letter-content"
+             id="letterContent">
+
+            <p>
+                If I could keep every little
+                memory somewhere safe,
+                I think I'd fill an entire
+                room with them.
+            </p>
+
+            <p>
+                The silly moments.
+                The random conversations.
+                The photographs.
+                The days that didn't seem
+                important at the time.
+            </p>
+
+            <p>
+                Somehow, those are the moments
+                that become the ones we remember.
+            </p>
+
+            <p class="letter-ending">
+                So here's to all the little
+                moments still waiting for us. ♡
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+
+<!-- =========================================
+     FINAL SECTION
+========================================= -->
+
+<section class="final-section">
+
+    <div class="final-hearts">
+        ♡ ♥ ♡
+    </div>
+
+    <h2>
+        And that's our little world.
+    </h2>
+
+    <p>
+        More memories coming soon...
+    </p>
+
+
+    <button onclick="makeItRain()">
+        one more heart ♡
+    </button>
+
+
+    <div class="final-message"
+         id="finalMessage">
+
+    </div>
+
+</section>
+
+
+</main>
+
+
+
+<!-- =========================================
+     PHOTO MODAL
+========================================= -->
+
+<div class="photo-modal"
+     id="photoModal">
+
+    <button class="close-modal"
+            onclick="closePhoto()">
+
+        ×
+
+    </button>
+
+
+    <img id="modalImage"
+         src=""
+         alt="Our memory">
+
+
+    <div class="modal-caption">
+        ♡ a little moment ♡
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
